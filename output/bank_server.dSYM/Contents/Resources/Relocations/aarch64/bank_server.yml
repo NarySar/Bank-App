@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/narysar/Desktop/Bank App/output/bank_server'
+relocations:     []
+...

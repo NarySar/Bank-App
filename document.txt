@@ -1,0 +1,20 @@
+
+Documentation
+
+ *
+ * Approach     : Created a server that forks off a new process whenever a client connects, allowing for each client to interact with the 
+ *                server independently. After the client connects, the server loops that process for as long as the client remains connected. 
+ *                In that loop, the server awaits a response from the client.When the client sends a message, it will go through an if/else block. 
+ *                This block checks for whether the client wants to exit, logout, login or perform a banking process. All messages sent to and from 
+ *                the client/server are encrypted. 
+ *
+ * Challenges   : I wasn't able to make the multi-client server work form the socket code from class. I found another working solution that seemed
+ *                both simple and short. https://github.com/nikhilroxtomar/Multiple-Client-Server-Program-in-C-using-fork
+ * 
+ *                It took a lot of time to figure out all of the I/O processes and converting things as needed. For converting the int to char [],
+ *                I found a good solution online that i copied over. https://www.geeksforgeeks.org/how-to-convert-given-number-to-a-character-array/
+ * 
+ *                This was a lot of moving parts, so in general I had issues with testing to make sure everything worked right. Needed to use lots of
+ *                Printf
+ *
+ */

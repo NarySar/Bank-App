@@ -1,0 +1,14 @@
+1. Run server
+2. Run client(s)
+3. Log in on client by providing username and password on one line separated by a space. ex: "user pass"
+    a. You can exit the client by typing in :exit during this step
+4. If logged in, enter banking commands
+    a. For adding funds, enter 1 and the amount to add on one line. ex: "1 200"
+    b. For withdrawing funds, enter 2 and the amount to remove on one line. ex: "2 200"
+    c. For just viewing the current balance, enter 3 
+    d. You can also exit the client by typing :exit just like in the login step
+    e. Typing :logout will logout your account from the server and send you back to the client login prompt
+
+Notes
+
+If you don't exit the client using the :exit command, then the server will go crazy and need to be rebooted.
