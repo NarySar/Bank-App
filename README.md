@@ -1,12 +1,12 @@
-#Banking App:
-###Overview
+# Banking App:
+### Overview
 This project implements a banking system using a C-based server-client architecture. The server uses fork() to create a new process for
 every client connection, ensuring independent communication between multiple clients.
 
 The program allows clients to log in, add funds, withdraw funds, and check balances. Communication between the client and server is
 secured with encrypted messages.
 
-###Features
+### Features
 Forking server: Handles multiple client connections independently.
 Basic banking operations:
 View balance
@@ -15,21 +15,21 @@ Withdraw funds
 Login/Logout system to manage multiple users.
 Graceful exit handling with :exit and :logout.
 
-###Getting Started
+### Getting Started
 Prerequisites
 GCC compiler
 Linux/MacOS terminal (for smooth networking operations)
 Basic knowledge of socket programming in C
 
-###Setup Instructions
+### Setup Instructions
 
-####1. Compile the Server and Client Programs:
+#### 1. Compile the Server and Client Programs:
 Use the following commands to compile the programs:
 
 gcc -o bank_server bank_server.c
 gcc -o bank_client bank_client.c
 
-####2. Run the Server:
+#### 2. Run the Server:
 Start the server by executing:
 
 ./bank_server
@@ -39,8 +39,8 @@ Open another terminal and run the client using:
 
 ./bank_client
 
-###Explanation of Key Components
-####1. Server Implementation (bank_server.c)
+### Explanation of Key Components
+#### 1. Server Implementation (bank_server.c)
 
 int main() {
     int sockfd, new_sock;
@@ -70,7 +70,7 @@ int main() {
     }
 }
 
-####Explanation:
+#### Explanation:
 Socket creation: socket() initializes a TCP/IP socket.
 Binding: Links the socket to a port (8080 in this case).
 Listening and accepting: The server listens for client connections and accepts each one in a loop.
@@ -187,3 +187,5 @@ Username: word | Initial Balance: 12200
 ###References###
 https://www.geeksforgeeks.org/how-to-convert-given-number-to-a-character-array/
 https://github.com/nikhilroxtomar/Multiple-Client-Server-Program-in-C-using-fork
+
+
