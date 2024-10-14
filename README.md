@@ -184,7 +184,7 @@ The following credentials can be used for testing:
 Username: pass | Initial Balance: 2100
 Username: word | Initial Balance: 12200
 
-### References###
+### References
 https://www.geeksforgeeks.org/how-to-convert-given-number-to-a-character-array/
 https://github.com/nikhilroxtomar/Multiple-Client-Server-Program-in-C-using-fork
 
