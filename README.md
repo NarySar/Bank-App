@@ -169,10 +169,15 @@ pass 2100
 Commands:
 
 Add funds:
+
 1 500
+
 Withdraw funds:
+
 2 300
+
 View balance:
+
 3
 
 Logout: Type :logout to log out and return to the login screen.
@@ -182,6 +187,7 @@ Exit: Type :exit to close the client application.
 The following credentials can be used for testing:
 
 Username: pass | Initial Balance: 2100
+
 Username: word | Initial Balance: 12200
 
 ### References
